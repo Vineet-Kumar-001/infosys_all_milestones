@@ -1,0 +1,8 @@
+pandas
+requests
+python-dotenv
+newsdataapi
+google-generativeai
+nltk
+wordcloud
+matplotlib

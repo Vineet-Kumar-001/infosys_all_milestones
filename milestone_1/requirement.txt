@@ -1,0 +1,17 @@
+pandas :- Data handling, analysis with tables
+
+requests :- Fetch data via web APIs
+
+matplotlib :- Create visual plots from data
+
+seaborn :- Stylish, statistical data visualization library
+
+nltk :- Natural language processing for text
+
+wordcloud :- Generate word frequency visual art
+
+import re :- anguage inside a language for finding patterns in text.
+
+import sys :- control panel for your Python interpreter.
+
+import os :- Python talk to files, folders, and environment variables

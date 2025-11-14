@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+requests
+python-dotenv
+nltk
+newsdataapi
+google-generativeai
+prophet
+plotly
+wordcloud
+pillow
