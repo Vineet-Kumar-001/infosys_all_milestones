@@ -12,7 +12,7 @@ import app_file
 
 # --- PAGE CONFIGURATION ---
 st.set_page_config(
-    page_title="🧠 Strategic Sentiment Intelligence Platform",
+    page_title="🧠 Local Sentiment Intelligence Platform",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -135,18 +135,18 @@ st.sidebar.caption(
 # --- MAIN CONTENT HANDLER ---
 if app_selection == "📰 New Dataset":
     st.markdown("""
-        <h1>📰 Strategic News Dataset Loader & Analyzer</h1>
+        <h1>📰 Local News Dataset Loader & Analyzer</h1>
         <p class='subtitle'>
-            Fetch live global news, perform AI-powered sentiment analysis, and send instant reports to Slack.
+            Fetch live news, run local transformer sentiment inference, and send reports to Slack.
         </p>
     """, unsafe_allow_html=True)
     datasetloader.run_dataset_loader()
 
 elif app_selection == "📈 Data Visualization":
     st.markdown("""
-        <h1>🧠 Sentiment Forecast & Analytics Dashboard</h1>
+        <h1>🧠 Local Sentiment Forecast & Analytics Dashboard</h1>
         <p class='subtitle'>
-            View aggregated insights, sentiment trends, and Prophet-based forecasts from all datasets.
+            View local-model sentiment trends, confidence, and Prophet-based forecasts from historical datasets.
         </p>
     """, unsafe_allow_html=True)
     app_file.run_data_visualization()
