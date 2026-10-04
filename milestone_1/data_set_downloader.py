@@ -5,8 +5,11 @@ import sys
 import os
 
 
-API_KEY = "pub_42d17633ae9c4c40bb8fe7c205bdb3ff"
+API_KEY = os.getenv("NEWSDATA_API_KEY")
 API_URL = "https://newsdata.io/api/1/news"
+
+if not API_KEY:
+    raise RuntimeError("NEWSDATA_API_KEY is not configured.")
 
 # The desired number of articles to fetch
 MAX_ARTICLES = 100
